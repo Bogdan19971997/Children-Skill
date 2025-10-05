@@ -175,6 +175,12 @@ math_games_data = [
                 "options": ["6", "7", "8", "9"],
                 "correct": 1,
                 "explanation": "Perfect! 7 goes between 6 and 8!"
+            },
+            {
+                "question": "Count by 2s: 2, 4, 6, ?",
+                "options": ["7", "8", "9", "10"],
+                "correct": 1,
+                "explanation": "Excellent! 8 comes next when counting by 2s!"
             }
         ]
     },
@@ -198,10 +204,102 @@ math_games_data = [
                 "options": ["Square", "Triangle", "Circle", "Rectangle"],
                 "correct": 2,
                 "explanation": "That's right! A ball is round like a circle!"
+            },
+            {
+                "question": "How many sides does a square have?",
+                "options": ["3", "4", "5", "6"],
+                "correct": 1,
+                "explanation": "Perfect! A square has 4 equal sides!"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Addition Adventure",
+        "description": "Help the friendly monsters solve addition problems!",
+        "type": "addition",
+        "ageGroup": "6-8",
+        "difficulty": "medium",
+        "image": "➕",
+        "exercises": [
+            {
+                "question": "2 + 3 = ?",
+                "options": ["4", "5", "6", "7"],
+                "correct": 1,
+                "explanation": "Amazing! 2 plus 3 equals 5!"
+            },
+            {
+                "question": "If you have 4 apples and get 2 more, how many do you have?",
+                "options": ["5", "6", "7", "8"],
+                "correct": 1,
+                "explanation": "Super! 4 + 2 = 6 apples!"
+            },
+            {
+                "question": "7 + 2 = ?",
+                "options": ["8", "9", "10", "11"],
+                "correct": 1,
+                "explanation": "Fantastic! 7 plus 2 equals 9!"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Subtraction Heroes",
+        "description": "Join the superhero team to solve subtraction mysteries!",
+        "type": "subtraction",
+        "ageGroup": "6-8",
+        "difficulty": "medium",
+        "image": "➖",
+        "exercises": [
+            {
+                "question": "8 - 3 = ?",
+                "options": ["4", "5", "6", "7"],
+                "correct": 1,
+                "explanation": "Super! 8 minus 3 equals 5!"
+            },
+            {
+                "question": "If you had 10 cookies and ate 4, how many are left?",
+                "options": ["5", "6", "7", "8"],
+                "correct": 1,
+                "explanation": "Great! 10 - 4 = 6 cookies left!"
+            },
+            {
+                "question": "15 - 7 = ?",
+                "options": ["6", "7", "8", "9"],
+                "correct": 2,
+                "explanation": "Excellent! 15 minus 7 equals 8!"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Pattern Power",
+        "description": "Discover amazing patterns with colors, shapes, and numbers!",
+        "type": "patterns",
+        "ageGroup": "5-8",
+        "difficulty": "easy",
+        "image": "🌟",
+        "exercises": [
+            {
+                "question": "What comes next? Red, Blue, Red, Blue, ?",
+                "options": ["Red", "Blue", "Green", "Yellow"],
+                "correct": 0,
+                "explanation": "Perfect! The pattern repeats: Red, Blue, Red!"
+            },
+            {
+                "question": "Complete the pattern: ○ △ ○ △ ?",
+                "options": ["○", "△", "□", "◊"],
+                "correct": 0,
+                "explanation": "Great! Circle comes next in this pattern!"
+            },
+            {
+                "question": "What's missing? 1, 3, 5, ?, 9",
+                "options": ["6", "7", "8", "10"],
+                "correct": 1,
+                "explanation": "Awesome! It's counting odd numbers: 7!"
             }
         ]
     }
-    # Add more games as needed...
 ]
 
 life_skills_data = [
