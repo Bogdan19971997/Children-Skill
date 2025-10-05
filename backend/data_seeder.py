@@ -15,7 +15,7 @@ mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
-# Sample data - this mirrors the mock data structure
+# Comprehensive sample data from the frontend mock
 stories_data = [
     {
         "id": "1",
@@ -69,8 +69,89 @@ stories_data = [
                 "correct": 1
             }
         ]
+    },
+    {
+        "id": "3",
+        "title": "The Counting Caterpillar",
+        "description": "Help Chester the Caterpillar count his way through the garden while learning numbers 1-10!",
+        "type": "interactive",
+        "ageGroup": "4-6",
+        "duration": "4 min",
+        "image": "🐛",
+        "content": [
+            "Chester the Caterpillar loved to munch on leaves in the garden.",
+            "He ate 1 leaf for breakfast. Munch, munch!",
+            "Then he found 2 more leaves by the roses.",
+            "By the pond, he discovered 3 beautiful lily pad leaves.",
+            "Chester counted all his leaves: 1, 2, 3, 4, 5, 6!",
+            "He was so full and happy that he took a nap under a sunflower!"
+        ],
+        "interactions": [
+            {
+                "type": "count",
+                "question": "How many leaves did Chester eat by the roses?",
+                "answer": 2
+            },
+            {
+                "type": "count", 
+                "question": "Count all the leaves Chester ate. How many total?",
+                "answer": 6
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "The Brave Little Mouse",
+        "description": "Meet Max the mouse who learns that being brave doesn't mean you're never scared!",
+        "type": "adventure",
+        "ageGroup": "4-7",
+        "duration": "7 min",
+        "image": "🐭",
+        "content": [
+            "Max was the smallest mouse in his family, and he was afraid of many things.",
+            "One day, his little sister got stuck behind a big box in the kitchen.",
+            "Even though Max was scared, he knew he had to help his sister.",
+            "He took a deep breath and squeezed through the small space to reach her.",
+            "Max helped his sister climb out safely, and everyone cheered!",
+            "Max learned that being brave means doing the right thing even when you're scared."
+        ],
+        "questions": [
+            {
+                "question": "What happened to Max's sister?",
+                "options": ["She got lost", "She got stuck", "She got hurt", "She got hungry"],
+                "correct": 1
+            },
+            {
+                "question": "What did Max learn about being brave?",
+                "options": ["Never be scared", "Hide from problems", "Help others even when scared", "Run away fast"],
+                "correct": 2
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "The Rainbow Garden",
+        "description": "Learn about colors and emotions with Emma as she plants a magical rainbow garden!",
+        "type": "educational",
+        "ageGroup": "4-6",
+        "duration": "5 min",
+        "image": "🌈",
+        "content": [
+            "Emma loved colors and wanted to plant a special garden with every color of the rainbow.",
+            "She planted red roses because red makes us feel strong and excited.",
+            "Orange marigolds went next - orange makes us feel happy and energetic!",
+            "Yellow sunflowers were planted third - yellow is like sunshine and makes us cheerful.",
+            "Green herbs filled the middle - green makes us feel calm and peaceful.",
+            "Blue forget-me-nots and purple lavender completed her beautiful rainbow garden!"
+        ],
+        "questions": [
+            {
+                "question": "What color makes us feel calm and peaceful?",
+                "options": ["Red", "Yellow", "Green", "Purple"],
+                "correct": 2
+            }
+        ]
     }
-    # Add more stories as needed...
 ]
 
 math_games_data = [
