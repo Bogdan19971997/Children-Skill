@@ -329,8 +329,115 @@ life_skills_data = [
                 "correct": 1
             }
         ]
+    },
+    {
+        "id": "2",
+        "title": "Sharing is Caring",
+        "description": "Discover why sharing with friends makes everyone happy!",
+        "category": "social",
+        "ageGroup": "4-7",
+        "image": "🤝",
+        "lessons": [
+            {
+                "title": "Taking Turns",
+                "content": "When we take turns, everyone gets a chance to play and have fun!",
+                "activity": "Practice saying 'Your turn!' and 'My turn!'"
+            },
+            {
+                "title": "Sharing Toys",
+                "content": "Sharing our toys with friends makes them happy and helps us make more friends!",
+                "activity": "Think of a toy you could share with a friend today."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What happens when we share with friends?",
+                "options": ["They get mad", "Everyone is happy", "We lose our toys", "Nothing happens"],
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Brushing Your Teeth",
+        "description": "Learn the fun way to keep your teeth clean and healthy!",
+        "category": "health",
+        "ageGroup": "4-8",
+        "image": "🦷",
+        "lessons": [
+            {
+                "title": "Morning and Night",
+                "content": "We should brush our teeth twice a day - when we wake up and before bed!",
+                "activity": "Sing the ABC song while brushing - that's how long to brush!"
+            },
+            {
+                "title": "Proper Technique",
+                "content": "Use gentle circles to clean all your teeth. Don't forget the back ones!",
+                "activity": "Practice making small circles with your toothbrush."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "How many times a day should we brush our teeth?",
+                "options": ["Once", "Twice", "Three times", "Never"],
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Home Fire Safety",
+        "description": "Learn important rules to stay safe from fires at home!",
+        "category": "safety",
+        "ageGroup": "5-10",
+        "image": "🔥",
+        "lessons": [
+            {
+                "title": "Stop, Drop, and Roll",
+                "content": "If your clothes catch fire, stop where you are, drop to the ground, and roll back and forth to put out the flames.",
+                "activity": "Practice the stop, drop, and roll movement with your family!"
+            },
+            {
+                "title": "Fire Escape Plan",
+                "content": "Every family should have two ways out of every room and a meeting place outside.",
+                "activity": "Walk around your house with an adult and find all the exits."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What should you do if your clothes catch fire?",
+                "options": ["Run fast", "Stop, drop, and roll", "Hide under bed", "Scream loudly"],
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Making Friends",
+        "description": "Learn how to make new friends and be a good friend to others!",
+        "category": "social",
+        "ageGroup": "4-8",
+        "image": "👫",
+        "lessons": [
+            {
+                "title": "How to Introduce Yourself",
+                "content": "Walk up with a smile, say 'Hi, my name is...' and ask 'What's your name?'",
+                "activity": "Practice introducing yourself to family members!"
+            },
+            {
+                "title": "Being a Good Friend",
+                "content": "Good friends are kind, share, listen, and help each other when needed.",
+                "activity": "Think of three ways you can be a good friend today."
+            }
+        ],
+        "quiz": [
+            {
+                "question": "What should you do when meeting someone new?",
+                "options": ["Look away", "Smile and say your name", "Run away", "Stay quiet"],
+                "correct": 1
+            }
+        ]
     }
-    # Add more life skills as needed...
 ]
 
 async def seed_database():
