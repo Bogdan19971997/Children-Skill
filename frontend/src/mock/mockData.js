@@ -632,6 +632,249 @@ export const lifeSkills = [
         correct: 1
       }
     ]
+  },
+  {
+    id: 4,
+    title: "Home Fire Safety",
+    description: "Learn important rules to stay safe from fires at home!",
+    category: "safety",
+    ageGroup: "5-10",
+    image: "🔥",
+    lessons: [
+      {
+        title: "Stop, Drop, and Roll",
+        content: "If your clothes catch fire, stop where you are, drop to the ground, and roll back and forth to put out the flames.",
+        activity: "Practice the stop, drop, and roll movement with your family!"
+      },
+      {
+        title: "Fire Escape Plan",
+        content: "Every family should have two ways out of every room and a meeting place outside.",
+        activity: "Walk around your house with an adult and find all the exits."
+      }
+    ],
+    quiz: [
+      {
+        question: "What should you do if your clothes catch fire?",
+        options: ["Run fast", "Stop, drop, and roll", "Hide under bed", "Scream loudly"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 5,
+    title: "Making Friends",
+    description: "Learn how to make new friends and be a good friend to others!",
+    category: "social",
+    ageGroup: "4-8",
+    image: "👫",
+    lessons: [
+      {
+        title: "How to Introduce Yourself",
+        content: "Walk up with a smile, say 'Hi, my name is...' and ask 'What's your name?'",
+        activity: "Practice introducing yourself to family members!"
+      },
+      {
+        title: "Being a Good Friend",
+        content: "Good friends are kind, share, listen, and help each other when needed.",
+        activity: "Think of three ways you can be a good friend today."
+      }
+    ],
+    quiz: [
+      {
+        question: "What should you do when meeting someone new?",
+        options: ["Look away", "Smile and say your name", "Run away", "Stay quiet"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 6,
+    title: "Healthy Eating",
+    description: "Discover which foods help your body grow strong and healthy!",
+    category: "health",
+    ageGroup: "4-9",
+    image: "🥕",
+    lessons: [
+      {
+        title: "Rainbow Foods",
+        content: "Eating foods of different colors gives your body different vitamins and nutrients!",
+        activity: "Count how many different colored foods you can eat today."
+      },
+      {
+        title: "Growing Foods vs. Fun Foods",
+        content: "Growing foods like fruits and vegetables help you grow. Fun foods like cookies are okay sometimes!",
+        activity: "Sort your snacks into 'growing foods' and 'fun foods' piles."
+      }
+    ],
+    quiz: [
+      {
+        question: "Which foods help your body grow the most?",
+        options: ["Candy", "Fruits and vegetables", "Chips", "Soda"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 7,
+    title: "Stranger Safety",
+    description: "Learn how to stay safe around people you don't know!",
+    category: "safety",
+    ageGroup: "5-10",
+    image: "👮",
+    lessons: [
+      {
+        title: "Safe Adults",
+        content: "Safe adults include parents, teachers, police officers, and family members. They wear uniforms or you know them well.",
+        activity: "Make a list with your parents of safe adults you can trust."
+      },
+      {
+        title: "What to Do",
+        content: "If a stranger asks you to go somewhere, say 'NO!' loudly and find a safe adult immediately.",
+        activity: "Practice saying 'NO!' in a loud, strong voice."
+      }
+    ],
+    quiz: [
+      {
+        question: "What should you do if a stranger asks you to come with them?",
+        options: ["Go with them", "Say NO and find a safe adult", "Be polite and follow", "Give them your address"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 8,
+    title: "Managing Big Feelings",
+    description: "Learn healthy ways to handle anger, sadness, and other strong emotions!",
+    category: "social",
+    ageGroup: "4-9",
+    image: "😊",
+    lessons: [
+      {
+        title: "Feeling Words",
+        content: "It's important to name your feelings: happy, sad, angry, scared, excited, or frustrated.",
+        activity: "Look in a mirror and make faces for different emotions!"
+      },
+      {
+        title: "Calm Down Strategies",
+        content: "When you feel upset, try taking deep breaths, counting to 10, or asking for a hug.",
+        activity: "Practice taking 5 deep breaths slowly with your belly."
+      }
+    ],
+    quiz: [
+      {
+        question: "What's a good way to calm down when you're angry?",
+        options: ["Hit someone", "Take deep breaths", "Scream loudly", "Break things"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 9,
+    title: "Personal Hygiene",
+    description: "Learn daily habits that keep your body clean and healthy!",
+    category: "health",
+    ageGroup: "5-10",
+    image: "🧼",
+    lessons: [
+      {
+        title: "Daily Washing",
+        content: "Wash your hands before eating, after using the bathroom, and after playing outside.",
+        activity: "Sing 'Happy Birthday' twice while washing your hands!"
+      },
+      {
+        title: "Taking Care of Your Hair",
+        content: "Brush or comb your hair every day to keep it neat and healthy.",
+        activity: "Practice brushing your hair gently from top to bottom."
+      }
+    ],
+    quiz: [
+      {
+        question: "When should you wash your hands?",
+        options: ["Only when dirty", "Before eating", "Once a week", "Never"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 10,
+    title: "Being Responsible",
+    description: "Learn how to take care of your belongings and help your family!",
+    category: "social",
+    ageGroup: "6-10",
+    image: "🏠",
+    lessons: [
+      {
+        title: "Taking Care of Your Things",
+        content: "Put toys away after playing, hang up clothes, and keep your room tidy.",
+        activity: "Organize one area of your room with an adult's help."
+      },
+      {
+        title: "Helping at Home",
+        content: "Everyone in a family helps out! You can set the table, feed pets, or put away groceries.",
+        activity: "Ask your parents what helpful job you can do today."
+      }
+    ],
+    quiz: [
+      {
+        question: "Being responsible means:",
+        options: ["Doing whatever you want", "Taking care of your things", "Making a mess", "Never helping"],
+        correct: 1
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: "Internet Safety",
+    description: "Learn how to be safe and smart when using computers and tablets!",
+    category: "safety",
+    ageGroup: "6-10",
+    image: "💻",
+    lessons: [
+      {
+        title: "Never Share Personal Info",
+        content: "Don't tell strangers online your name, address, school, or phone number. Only talk to people your parents know.",
+        activity: "Make a list with your parents of safe websites you can visit."
+      },
+      {
+        title: "Tell a Trusted Adult",
+        content: "If someone online makes you feel uncomfortable or asks to meet you, tell your parents right away.",
+        activity: "Practice telling a parent about something that happened online."
+      }
+    ],
+    quiz: [
+      {
+        question: "What should you do if someone online asks for your address?",
+        options: ["Tell them", "Ask parents first", "Never share it", "Give a fake one"],
+        correct: 2
+      }
+    ]
+  },
+  {
+    id: 12,
+    title: "Good Manners",
+    description: "Learn polite words and behaviors that make everyone feel good!",
+    category: "social",
+    ageGroup: "4-8",
+    image: "🎩",
+    lessons: [
+      {
+        title: "Magic Words",
+        content: "Please, thank you, excuse me, and I'm sorry are magic words that show respect and kindness.",
+        activity: "Use all four magic words at least once today!"
+      },
+      {
+        title: "Table Manners",
+        content: "Sit up straight, chew with your mouth closed, and wait your turn to talk during meals.",
+        activity: "Practice eating a snack using good table manners."
+      }
+    ],
+    quiz: [
+      {
+        question: "What should you say when someone gives you something?",
+        options: ["Nothing", "Thank you", "I want more", "That's mine"],
+        correct: 1
+      }
+    ]
   }
 ];
 
