@@ -279,6 +279,12 @@ export const mathGames = [
         options: ["6", "7", "8", "9"],
         correct: 1,
         explanation: "Perfect! 7 goes between 6 and 8!"
+      },
+      {
+        question: "Count by 2s: 2, 4, 6, ?",
+        options: ["7", "8", "9", "10"],
+        correct: 1,
+        explanation: "Excellent! 8 comes next when counting by 2s!"
       }
     ]
   },
@@ -302,6 +308,12 @@ export const mathGames = [
         options: ["Square", "Triangle", "Circle", "Rectangle"],
         correct: 2,
         explanation: "That's right! A ball is round like a circle!"
+      },
+      {
+        question: "How many sides does a square have?",
+        options: ["3", "4", "5", "6"],
+        correct: 1,
+        explanation: "Perfect! A square has 4 equal sides!"
       }
     ]
   },
@@ -325,6 +337,215 @@ export const mathGames = [
         options: ["5", "6", "7", "8"],
         correct: 1,
         explanation: "Super! 4 + 2 = 6 apples!"
+      },
+      {
+        question: "7 + 2 = ?",
+        options: ["8", "9", "10", "11"],
+        correct: 1,
+        explanation: "Fantastic! 7 plus 2 equals 9!"
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: "Subtraction Heroes",
+    description: "Join the superhero team to solve subtraction mysteries!",
+    type: "subtraction",
+    ageGroup: "6-8",
+    difficulty: "medium",
+    image: "➖",
+    exercises: [
+      {
+        question: "8 - 3 = ?",
+        options: ["4", "5", "6", "7"],
+        correct: 1,
+        explanation: "Super! 8 minus 3 equals 5!"
+      },
+      {
+        question: "If you had 10 cookies and ate 4, how many are left?",
+        options: ["5", "6", "7", "8"],
+        correct: 1,
+        explanation: "Great! 10 - 4 = 6 cookies left!"
+      },
+      {
+        question: "15 - 7 = ?",
+        options: ["6", "7", "8", "9"],
+        correct: 2,
+        explanation: "Excellent! 15 minus 7 equals 8!"
+      }
+    ]
+  },
+  {
+    id: 5,
+    title: "Pattern Power",
+    description: "Discover amazing patterns with colors, shapes, and numbers!",
+    type: "patterns",
+    ageGroup: "5-8",
+    difficulty: "easy",
+    image: "🌟",
+    exercises: [
+      {
+        question: "What comes next? Red, Blue, Red, Blue, ?",
+        options: ["Red", "Blue", "Green", "Yellow"],
+        correct: 0,
+        explanation: "Perfect! The pattern repeats: Red, Blue, Red!"
+      },
+      {
+        question: "Complete the pattern: ○ △ ○ △ ?",
+        options: ["○", "△", "□", "◊"],
+        correct: 0,
+        explanation: "Great! Circle comes next in this pattern!"
+      },
+      {
+        question: "What's missing? 1, 3, 5, ?, 9",
+        options: ["6", "7", "8", "10"],
+        correct: 1,
+        explanation: "Awesome! It's counting odd numbers: 7!"
+      }
+    ]
+  },
+  {
+    id: 6,
+    title: "Fraction Friends",
+    description: "Meet the fraction family and learn about parts and wholes!",
+    type: "fractions",
+    ageGroup: "7-10",
+    difficulty: "medium",
+    image: "🍕",
+    exercises: [
+      {
+        question: "If you cut a pizza into 4 equal pieces and eat 1, what fraction did you eat?",
+        options: ["1/2", "1/3", "1/4", "2/4"],
+        correct: 2,
+        explanation: "Correct! You ate 1 out of 4 pieces = 1/4!"
+      },
+      {
+        question: "Which is bigger: 1/2 or 1/4?",
+        options: ["1/2", "1/4", "They're equal", "Can't tell"],
+        correct: 0,
+        explanation: "Right! 1/2 is bigger than 1/4!"
+      },
+      {
+        question: "How many halves make a whole?",
+        options: ["1", "2", "3", "4"],
+        correct: 1,
+        explanation: "Perfect! Two halves (2/2) make one whole!"
+      }
+    ]
+  },
+  {
+    id: 7,
+    title: "Time Travelers",
+    description: "Learn to tell time while traveling through different time periods!",
+    type: "time",
+    ageGroup: "6-9",
+    difficulty: "medium",
+    image: "🕐",
+    exercises: [
+      {
+        question: "What time is it when the big hand points to 12 and little hand points to 3?",
+        options: ["12:00", "3:00", "6:00", "9:00"],
+        correct: 1,
+        explanation: "Excellent! When little hand is on 3, it's 3:00!"
+      },
+      {
+        question: "How many minutes are in 1 hour?",
+        options: ["30", "45", "60", "100"],
+        correct: 2,
+        explanation: "Great! There are 60 minutes in 1 hour!"
+      },
+      {
+        question: "If it's 2:00 now, what time will it be in 1 hour?",
+        options: ["1:00", "2:30", "3:00", "4:00"],
+        correct: 2,
+        explanation: "Perfect! 2:00 + 1 hour = 3:00!"
+      }
+    ]
+  },
+  {
+    id: 8,
+    title: "Money Masters",
+    description: "Learn about coins and money while running a pretend store!",
+    type: "money",
+    ageGroup: "7-10",
+    difficulty: "medium",
+    image: "🪙",
+    exercises: [
+      {
+        question: "How much is a penny worth?",
+        options: ["1¢", "5¢", "10¢", "25¢"],
+        correct: 0,
+        explanation: "Right! A penny is worth 1 cent!"
+      },
+      {
+        question: "If you have 2 dimes, how much money do you have?",
+        options: ["10¢", "15¢", "20¢", "25¢"],
+        correct: 2,
+        explanation: "Correct! 2 dimes = 10¢ + 10¢ = 20¢!"
+      },
+      {
+        question: "How many nickels equal one quarter?",
+        options: ["3", "4", "5", "6"],
+        correct: 2,
+        explanation: "Perfect! 5 nickels (5×5¢) = 25¢ = 1 quarter!"
+      }
+    ]
+  },
+  {
+    id: 9,
+    title: "Measurement Madness",
+    description: "Explore length, weight, and volume with fun measurement challenges!",
+    type: "measurement",
+    ageGroup: "6-9",
+    difficulty: "easy",
+    image: "📏",
+    exercises: [
+      {
+        question: "What do we use to measure how long something is?",
+        options: ["Scale", "Ruler", "Cup", "Clock"],
+        correct: 1,
+        explanation: "Great! We use a ruler to measure length!"
+      },
+      {
+        question: "Which is longer: your arm or your finger?",
+        options: ["Arm", "Finger", "Same", "Can't tell"],
+        correct: 0,
+        explanation: "Correct! Your arm is much longer than your finger!"
+      },
+      {
+        question: "How many inches are in 1 foot?",
+        options: ["10", "12", "15", "20"],
+        correct: 1,
+        explanation: "Perfect! There are 12 inches in 1 foot!"
+      }
+    ]
+  },
+  {
+    id: 10,
+    title: "Multiplication Magic",
+    description: "Discover the magic of multiplication with fun tricks and games!",
+    type: "multiplication",
+    ageGroup: "8-10",
+    difficulty: "hard",
+    image: "✨",
+    exercises: [
+      {
+        question: "2 × 3 = ?",
+        options: ["5", "6", "7", "8"],
+        correct: 1,
+        explanation: "Amazing! 2 × 3 = 6 (2 groups of 3)!"
+      },
+      {
+        question: "If you have 4 bags with 5 apples each, how many apples total?",
+        options: ["15", "20", "25", "30"],
+        correct: 1,
+        explanation: "Super! 4 × 5 = 20 apples total!"
+      },
+      {
+        question: "What is 6 × 1?",
+        options: ["1", "6", "7", "12"],
+        correct: 1,
+        explanation: "Excellent! Any number times 1 equals itself!"
       }
     ]
   }
